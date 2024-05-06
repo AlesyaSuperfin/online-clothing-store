@@ -12,4 +12,6 @@ I created Online Clothing Store to learn how to work with Props, useState() and 
 * You can filter products using category buttons ("Dress", "Shoes", "Kids" etc.)
 * 
 
-[Link for application](https://silly-trifle-597836.netlify.app/)
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-store/blob/main/online_clothing_store_two.jpg)
+
+[Link for application](https://alesya-superfin-online-clothing-store.netlify.app/about)
