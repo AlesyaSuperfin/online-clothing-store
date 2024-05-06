@@ -4,7 +4,7 @@ function Clothes ({dataClothes}) {
     return(
         <div className="products">
             {dataClothes.map((element => {
-                const {id, name, searchTerm, price, image} = element;
+                const {id, name, price, image} = element;
                 return(
                     <div key={id} className="product-card">
                         <Link to={`/about/${element.title}`}>
