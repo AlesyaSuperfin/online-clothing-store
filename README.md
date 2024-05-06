@@ -3,7 +3,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Product Name Screen Shot](https://github.com/AlesyaSuperfin/To-do-list/blob/main/src/toDoList.jpg)
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-store/blob/main/online_clothing_store.jpg)
 
 I created Online Clothing Store to learn how to work with Props, useState() and React Router.
 
