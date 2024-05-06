@@ -3,6 +3,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+[Link for the application](https://alesya-superfin-online-clothing-store.netlify.app/about)
+
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-store/blob/main/online_clothing_store.jpg)
 
 I created Online Clothing Store to learn how to work with Props, useState() and React Router.
@@ -18,4 +20,4 @@ I created Online Clothing Store to learn how to work with Props, useState() and 
 
 
 
-[Link for application](https://alesya-superfin-online-clothing-store.netlify.app/about)
+
