@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-card {
+  padding: 2%;
+  flex-basis: 16%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: #f6f6f6;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20px;
+}
+
+nav {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: black;
+  padding: 15px;
+}
+
+.link {
   color: white;
+  padding: 10px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.back {
+  margin: 20px 20px 0px 20px;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.change {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  cursor: pointer;
+}
+
+.person {
+  background-color: #f6f6f6;
+  border: none;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.person:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+h3, h4 {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  margin: 10px;
+}
+
+button {
+  margin: 10px;
+}
+
+p {
+  width: 60%;
+  text-align: center;
+}
+
+@media all and (max-width: 500px) {
+  .link {
+    padding: 10px 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  h2 {
+    font-size: 20px;
   }
+
+  .productPhoto {
+    width: 200px;
+    height: 300px;
+  }
+
+  .productPhotoFull {
+    width: 80%;
+  }
+
 }
