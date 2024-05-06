@@ -5,7 +5,7 @@ function About () {
         <div className="container">
             <h1>About us</h1>
             <p>"Estetica" is a lifestyle clothing company based on the South Devon Coast. The brand is famous for its wonderfully comfy, colourful sweatshirts in a range of signature brights. More recently introducing unique prints across tunics and skirts, all designed in house in our Devon studio.</p>
-            <img src={image} height="500px" alt='aboutUs' />
+            <img src={image} className='imgAbout' height="500px" alt='aboutUs' />
         </div>
     )
 }
